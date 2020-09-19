@@ -50,7 +50,7 @@ nav ul li, footer ul li {
 /* Add a black background color to the top navigation */
 nav {
   background-color: black;
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   overflow: hidden;
 }
 
@@ -96,8 +96,8 @@ p {
 footer {
     clear: both;
     position: relative;
-    height: 200px;
-    margin-top: -200px;
+    height: 90px;
+    margin-top: -90px;
 }
 
 ul.posts { 
