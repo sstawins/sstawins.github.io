@@ -97,10 +97,15 @@ p {
 }
 
 footer {
+    float: left;
     color: white;
     clear: both;
     position: relative;
     margin-top: 900px;
+}
+footer a {
+    float:left;
+    color: white
 }
 
 div.line
