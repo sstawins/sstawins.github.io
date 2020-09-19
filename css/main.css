@@ -103,6 +103,13 @@ footer {
     margin-top: 900px;
 }
 
+div.line
+{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
