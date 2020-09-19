@@ -4,10 +4,6 @@ body {
     /* The image used */
     background-image: url("hubbledeep.jpg");
 
-     /* Add the blur effect */
-     filter: blur(8px);
-     -webkit-filter: blur(8px);
-
      /* Full height */
      height: 100%;
 
@@ -15,6 +11,7 @@ body {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     background-attachment: fixed;
    }
 * {
   box-sizing: border-box;
