@@ -86,12 +86,12 @@ a:hover {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 15px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.8em;
-    line-height: 2em;
+    font-size: 10px;
+    line-height: 12px;
 }
 
 footer {
