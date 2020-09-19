@@ -27,11 +27,13 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    margin-bottom: 3cm;
 }
 pud {
     font-size: 1.2em;
     line-height: 1.0em;
     color: #0000FFF;
+    margin-bottom: 3cm;
 }
 footer {
     border-top: 1px solid #d5d5d5;
