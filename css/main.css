@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
     /* The image used */
-    background-image: url("hubbledeep.jpg");
+    background-image: url("/hubbledeep.jpg");
 
      /* Full height */
      height: 100%;
