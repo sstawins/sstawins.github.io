@@ -4,23 +4,40 @@
 		<title>Stephanie Urbano Stawinski</title>
 			<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<style>	
+			/* Position text in the middle of the page/image */
+			.bg-text {
+  				background-color: rgb(0,0,0); /* Fallback color */
+  				background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  				color: white;
+  				font-weight: bold;
+ 	 			border: 3px solid #f1f1f1;
+  				position: absolute;
+  				top: 40%;
+  				left: 50%;
+  				transform: translate(-50%, -50%);
+  				z-index: 2;
+  				width: 80%;
+  				padding: 20px;
+  				text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<nav>
-        		<a href="/">Home</a>
-	        	<a href="/Research">Research</a>
+			<a href="/publications/pub.html">Publications</a>
         		<a href="/CV/StawinskiStephanie_CV.pdf">CV</a>
-        		<a href="/publications/pub.html">Publications</a>
+	        	<a href="/Research">Research</a>
+			<a href="/">Home</a>
 		</nav>
 		
-		<div class="container">
-    		<div class="blurb">
+		<div class="bg-text">
+
 				<p>List of Publications: 
 				<br>	
         			<small><a href="https://ui.adsabs.harvard.edu/search/q=author%3A(%22stawinski%2Cstephanie%22)&sort=date%20desc%2C%20bibcode%20desc&p_=0" style="color:#0000FF;">NASA ads</a></small>
 					</p>
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->
 
 		<footer>
     		<ul>
