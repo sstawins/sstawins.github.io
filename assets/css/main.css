@@ -2514,7 +2514,7 @@ input, select, textarea {
 		.carousel .forward, .carousel .backward {
 			position: absolute;
 			top: 50%;
-			width: 6em;
+			width: 12em;
 			height: 12em;
 			margin-top: -6em;
 			cursor: pointer;
