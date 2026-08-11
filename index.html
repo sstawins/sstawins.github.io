@@ -6,11 +6,17 @@
 -->
 <html>
 	<head>
-		<title>Stephanie Urbano Stawinski</title>
+		<title>Home | S. M. Urbano Stawinski</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Best-effort speed-up of the page load fade-in. If this doesn't change anything,
+		     the real transition rule lives in assets/css/main.css and needs editing there instead. -->
+		<style>
+			body.is-preload, body.is-preload * { transition-duration: 0.3s !important; }
+			#page-wrapper { transition: opacity 0.3s ease-in-out !important; }
+		</style>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -20,11 +26,19 @@
 
 					<!-- Inner -->
 						<div class="inner">
-							<header>
-								<h1>Stephanie Urbano Stawinski</h1>
-								<hr />
-								<p><span style="font-size:1.2em;">Postdoctoral Scholar</span><br /><span style="font-size:0.85em;">Department of Physics<br />University of California, Santa Barbara</span></p>
-							</header>
+							<div class="row gtr-150" style="align-items:center;">
+								<div class="col-7 col-12-mobile">
+									<header>
+										<h1 style="font-size:2.6em; margin-bottom:0.1em;">S. M. Urbano Stawinski</h1>
+										<p style="font-size:1.3em; font-style:italic; margin-top:0;">Postdoctoral Scholar &middot; Observational Astrophysicist</p>
+									</header>
+								</div>
+								<div class="col-5 col-12-mobile">
+									<a href="#" class="image fit" style="display:block; max-width:280px; margin:0 auto;">
+										<img src="images/IMG_0658.jpg" alt="" style="border-radius:30px; display:block; width:100%;" />
+									</a>
+								</div>
+							</div>
 						</div>
 
 					<!-- Nav -->
@@ -59,14 +73,14 @@
 							</header>
 							<div class="row">
 							<div class="col-4 col-12-mobile">
-							<a href="#" class="image fit"><img src="images/headshot.jpeg" alt="" /></a><br>
+							<a href="#" class="image fit"><img src="images/IMG_0658.jpg" alt="" /></a><br>
 							<div class="row gtr-25">
 								<div class="col-4">
 									<a href="https://orcid.org/0000-0001-8169-7249" style="display:flex; align-items:center; justify-content:center; height:50px;"><img src="https://www.ebi.ac.uk/web_guidelines/images/logos/orcid/orcid_128x128.png" alt="ORCID iD" style="height:50px; width:auto; max-width:100%; object-fit:contain;" /></a>
 								</div>
 								<div class="col-4">
 									<a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8169-7249&sort=date%20desc%2C%20bibcode%20desc&p_=0" style="display:flex; align-items:center; justify-content:center; height:50px;">
-										<img src="images/nasaadslogo.png" alt="" style="height:71px; width:auto; max-width:100%; object-fit:contain;" /></a>
+										<img src="images/nasaadslogo.png" alt="" style="height:68px; width:auto; max-width:100%; object-fit:contain;" /></a>
 								</div>
 								<div class="col-4">
 									<a href="https://scholar.google.com/citations?hl=en&user=RvsWE6gAAAAJ" style="display:flex; align-items:center; justify-content:center; height:50px;">
